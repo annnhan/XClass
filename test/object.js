@@ -11,7 +11,7 @@ exports.run = function () {
         }
     }
 
-    var Person = XClass({
+    var Person = new XClass({
         init: function () {
             this.name = 'hanan'
         },

@@ -10,7 +10,7 @@ exports.run = function () {
         return this.name;
     }
 
-    var Hanan = XClass({
+    var Hanan = new XClass({
         init: function (name) {
             this.parent(name);
         },
