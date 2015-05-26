@@ -23,7 +23,8 @@ exports.run = function () {
         parent: obj
     });
 
-    var name = (new Person()).getname();
+    var hanan = new Person();
+    var name = hanan.getname();
 
     console.log('object:', name === 'hanan');
 }
